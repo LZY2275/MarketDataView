@@ -1,17 +1,23 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <!-- 标题 -->
+    <div>
+      <div class="title">
+        实时行情显示页
+      </div>
+    </div>
+    <HangqingView style="width: 100%;"></HangqingView>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+// import HuatuView from './components/HuatuView.vue'
+import HangqingView from './components/HangqingView.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HangqingView
   }
 }
 </script>
@@ -21,8 +27,19 @@ export default {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+}
+*{
+  padding: 0;
+  margin: 0;
+}
+.title{
+    display: flex;
+    font-size: 30px;
+    font-weight: bold;
+    /*color: rgba(50, 132, 110, 1);*/
+    color: var(--td-brand-color-6);
+    text-align: left;
+    vertical-align: top;
+    padding: 48px 36px;
 }
 </style>
