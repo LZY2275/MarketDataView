@@ -2,7 +2,7 @@
 
 该代码是《软件工程经济学》前端代码。主要运行效果如下。
 
-<img src="https://postimg.cc/9rfLKXLx" />
+<img src="https://i.postimg.cc/Fsywf73Q/c36c32789ece52348033fd47250408a1.png" />
 
 ## Project setup
 ```
