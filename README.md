@@ -2,7 +2,7 @@
 
 该代码是《软件工程经济学》行情页面显示的前端代码。主要运行效果如下。
 
-后端代码见[该链接](https://github.com/Masterlong-Dragon/MarketDataCapturer)。
+后端代码见[MarketDataCapturer](https://github.com/Masterlong-Dragon/MarketDataCapturer)。
 
 <img src="https://i.postimg.cc/Fsywf73Q/c36c32789ece52348033fd47250408a1.png" />
 
